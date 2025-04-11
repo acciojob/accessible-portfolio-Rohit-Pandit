@@ -7,30 +7,37 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>Lion</h1>
-	<nav>
-		<a href="#about">About</a>
-        <a href="#features">Features</a>
-        <a href="#gallery">Gallery</a>
-	</nav>
-	<section id="about"></section>
-	<section id="features">
-		<ul>
-			<li>Powerful</li>
-		    <li>Dominant</li>
-		</ul>
-	</section>
-	<section id="gallery">
-		<img 
-			src="https://kids.nationalgeographic.com/animals/mammals/facts/lion"
-			alt="Lion"
-			>
-	</section>
+	<header>
+    <h1 role="heading">Welcome to My Accessible Portfolio</h1>
+  </header>
 
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About Me</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <img role="img" src="profile.jpg" alt="Photo of the developer" />
+    <p>Hello! I'm a passionate MERN stack developer focused on building accessible and scalable web applications.</p>
+  </section>
+
+  <section id="projects">
+    <h2 role="heading">My Favorite Technologies</h2>
+    <ul role="list">
+      <li role="listitem">React.js</li>
+      <li role="listitem">Node.js</li>
+      <li role="listitem">MongoDB</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
 	
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
